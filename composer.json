@@ -1,0 +1,28 @@
+{
+  "name": "unetway/paypal",
+  "description": "Пакет для работы с подписками Paypal",
+  "keywords": [
+    "paypal",
+    "billing",
+	"subscriptions",
+	"recurrent"
+  ],
+  "homepage": "https://github.com/unetway/paypal",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cherepanov Ilya",
+      "email": "support@unetway.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unetway\\Paypal\\": "src/"
+    }
+  }
+}
+
